@@ -1,0 +1,1307 @@
+$wt: 100%;
+$wd: 1200px;
+$mg: 0 auto;
+$fl: left;
+$fr: right;
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+#slideshow_blouse{
+	width: $wd;
+	height: 535px;
+	margin: $mg;
+	padding-top: 30px;
+	position: relative;
+	.blouse_slideshow{
+		width: $wd;
+		overflow: hidden;
+		height: 535px;
+		position: absolute;
+		li{
+			width: 1200px;
+			height: 535px;
+			float: left;
+			position: absolute;
+		}
+	}
+	#bPrev{
+		width: 28px;
+		height: 63px;
+		background: url(/img/blouse/cslef.png) no-repeat;
+		position: absolute;
+		display: block;
+		top: 45%;
+		left: 10px;
+	}
+	#bNext{
+		width: 28px;
+		height: 63px;
+		background: url(/img/blouse/csrig.png) no-repeat;
+		position: absolute;
+		display: block;
+		top: 45%;
+		right: 10px;
+	}
+}
+#nautilus_subnav{
+	width: $wd;
+	margin: $mg;
+	padding: 20px 0px 0px;
+	.tabs{
+		width: $wd;
+		height: 54px;
+		#tabsLeft{
+			width: 50%;
+			height: 54px;
+			background: #a10000;
+			text-align: center;
+			line-height: 54px;
+			float: left;
+			position: relative;
+			a{
+				width: 100%;
+				height: 54px;
+				display: inline-block;
+				color: white;
+				font-size: 17px;
+			}
+			i{
+				display: block;
+				position: absolute;
+				bottom: -7px;
+			    left: 50%;
+			    margin-left: -7px;
+			    border-left: 7px solid transparent;
+			    border-right: 7px solid transparent;
+			    border-top: 7px solid  #a10000;
+			}
+		}
+		#tabsRight{
+			width: 50%;
+			height: 54px;
+			background: #f3f3f3;
+			text-align: center;
+			line-height: 54px;
+			float: left;
+			position: relative;
+			a{
+				width: 100%;
+				height: 54px;
+				display: inline-block;
+				color: black;
+				font-size: 17px;
+			}
+			i{
+				display: none;
+				position: absolute;
+				bottom: -7px;
+			    left: 50%;
+			    margin-left: -7px;
+			    border-left: 7px solid transparent;
+			    border-right: 7px solid transparent;
+			    border-top: 7px solid  #a10000;
+			}
+		}
+	}
+	.tabs_meun{
+		width: $wd;
+		height: 88px;
+		margin-top: 30px;
+		position: relative;
+		.left{
+			.tabsLeft_meun{
+			width: $wd;
+			height: 40px;
+			line-height: 40px;
+			li{
+				float: left;
+				width: 192px;
+				height: 40px;
+				line-height: 40px;
+				margin-right: 9px;
+				background: #f3f3f3;
+				text-align: center;
+				position: relative;
+				a{
+					width: 192px;
+					height: 40px;
+					display: block;
+					position: absolute;
+					color: black;
+					font-size: 16px;
+					background: url(/img/blouse/point137.png) no-repeat 50% 34px;
+				}
+			}
+			li:last-child{
+				margin-right: 0;
+			}
+			}
+			p{
+				img{
+					width: $wd;
+					height: 34px;
+					margin-top: 10px;
+				}
+			}
+		}
+		/*右*/
+		.right{
+			display: none;
+			position: relative;
+			.tabsRight_meun{
+				width: $wd;
+				position: absolute;
+				top: 1px;
+			li{
+				float: left;
+				width: 192px;
+				height: 40px;
+				line-height: 40px;
+				margin-right: 9px;
+				background: #f3f3f3;
+				text-align: center;
+				position: relative;
+				a{
+					width: 192px;
+					height: 40px;
+					display: block;
+					position: absolute;
+					color: black;
+					font-size: 16px;
+					background: url(/img/blouse/point137.png) no-repeat 50% 34px;
+				}
+			}
+			li:last-child{
+				margin-right: 0;
+			}
+			}
+			p{
+				position: absolute;
+                top: 83px;
+                height: 50px;
+				img{
+					width: $wd;
+					height: 50px;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+}
+.left_meun{
+	width: $wd;
+	margin: $mg;
+	display: block;
+	.left_product{
+		margin-bottom: 80px;
+		height: 3295px;
+		#xinpin{
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}
+	.product_shirt{
+		height: 2165px;
+		.niujinfan{
+			height: 190px;
+		}
+		#niujinfan{
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}
+	.product_shirt2{
+		height: 3790px;
+		.caroset{
+			height: 190px;
+		}
+		#product_caroset{
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}
+	.product_washableCotton{
+		height: 895px;
+		.washableCotton{
+			height: 190px;
+		}
+		#product_washable{
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}
+	.product_chambray{
+		height: 220px;
+		.chambray{
+			height: 190px;
+		}
+		#productChambray{
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}
+	.product_blouse{
+		height: 1195px;
+		.shirt{
+			height: 190px;
+		}
+		#productShirt{
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}
+}
+
+.right_meun{
+	width: $wd;
+	margin: $mg;
+	display: none;
+	margin-top: 90px;
+	.right_product{
+		height: 680px;
+		#newProduct{
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}
+	/*2*/
+	.right_business{
+		height: 440px;
+		.shirt{
+			height: 70px;
+		}
+		#product_business{
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}/*3*/
+	.right_businessLeisure{
+		height: 440px;
+		.shirt{
+			height: 70px;
+		}
+		#product_leisure{
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}/*4*/
+	.right_businessGaozhi{
+		height: 765px;
+		.shirt{
+			height: 70px;
+		}
+		#product_gaozhi{
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}/*5*/
+	.right_businessLongshirt{
+		height: 1320px;
+		.shirt{
+			height: 60px;
+		}
+		.long{
+			height: 80px;
+		}
+		#product_longshirt{
+			height: 330px;
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+		.Long{
+			height: 80px;
+		}
+		#product_longshirtt{
+			height: 330px;
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+		.Long2{
+			height: 80px;
+		}
+		#product_longshirts{
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}/*6*/
+	.right_businessshort{
+		height: 915px;
+		.shirt{
+			height: 60px;
+		}
+		.sleeve{
+			height: 80px;
+		}
+		#product_sleeveshort{
+			height: 330px;
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+		.sshort{
+			height: 80px;
+		}
+		#product_sleeveshortt{
+			height: 330px;
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}/*7*/
+	.right_businessdiscounts{
+		height: 780px;
+		.shirt{
+			height: 60px;
+		}
+		#product_discounts{
+			height: 330px;
+			li{
+				width: 260px;
+				height: 302px;
+				float: left;
+				margin: 20px 19px 0px 19px;
+				border: 1px solid #e8e7ec;
+				position: relative;
+				.pic{
+					width: 260px;
+					height: 260px;
+				}
+				.name{
+					width: 60%;
+					height: 17px;
+					float: left;
+					margin-left: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #676767;
+						font-size: 15px;
+					}
+				}
+				.price{
+					width: 20%;
+					height: 17px;
+					float: right;
+					margin-right: 15px;
+					margin-top: 8px;
+					line-height: 17px;
+					a{
+						color: #b80001;
+						font-size: 15px;
+						text-decoration: line-through;
+					}
+				}
+				.img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 52px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					height: 26px;
+   						line-height: 33px;
+   						display: inline-block;
+    				}
+				}
+			}
+		}
+	}
+}

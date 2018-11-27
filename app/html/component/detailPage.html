@@ -1,0 +1,101 @@
+<div class="detail_head">
+	<script type="text/html" id="detail-template">
+		<p class="text">首页> 男装> T恤> 短袖T恤>{{product.name}}</p>
+		<div class="brandNumArea">
+			<p class="productname">{{product.name}}</p>
+			<ul class="options">
+				<li><a href="javascrpt:;">图案展示</a></li>
+				<li><a href="javascrpt:;javascrpt:;">作者简介</a></li>
+				<li><a href="javascrpt:;">产品尺码</a></li>
+				<li><a href="javascrpt:;">洗涤保养</a></li>
+				<li><a href="javascrpt:;">评论</a></li>
+				<li><a href="javascrpt:;">提问</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="Image_details">
+		<div class="danpin_colLef">
+			<div class="danpinLeft">
+				<ul>
+					<li class="danpinli"><img src="{{product.img1}}"></li>
+					<li class="danpintli"><img src="{{product.img1t}}"></li>
+				</ul>
+			</div>
+			<div class="danpinColCenter">
+				<div class="smallImg">
+					<p class="pic">
+					<img src="{{product.img1}}" id="img">
+					</p>
+					<span id="fdj"></span>
+				</div>
+				<div class="bigImg">
+					<img src="{{product.img2}}" id="bigimg">
+				</div>
+			</div>
+		</div>
+		<div class="danpinRight">
+			<p class="tehuijia">
+				<span class="text">特惠价：￥&nbsp;&nbsp;<i class="price">{{product.price}}</i></span>
+				<span class="txt">充100返100，点击充值</span>
+			</p>
+			<div class="color">
+				<span class="colortxt">颜色：</span>
+				<ul class="colorImg">
+					<li class="colorImgli">
+						<span class="Img"><img src="{{product.img1}}"></span>
+						<span class="Txt">黑色</span>
+						<span class="d"><img src="/img/detail/d.png"></span>
+					</li>
+					<li class="colorImgtli">
+						<span class="tImg"><img src="{{product.img1t}}"></span>
+						<span class="tTxt">白色</span>
+						<span class="dt"><img src="/img/detail/d.png"></span>
+					</li>
+				</ul>
+			</div>
+			<div class="size">
+				<span class="text">尺码：</span>
+				<ul id="size">
+					<li class="s">S</li>
+					<li class="m">M</li>
+					<li class="l">L</li>
+					<li class="xl">XL</li>
+					<li class="xxl">XXL</li>
+					<li class="xxxl">XXXL</li>
+				</ul>
+			</div>
+			<p class="number">
+				<span class="text">数量：</span>
+				<select id="number">
+					<option value="1">1</option>
+					<option value="2">2</option>
+				</select>
+				<span class="txt">余量有限</span>
+			</p>
+			<p class="choose">
+				<span class="text">已选：</span>
+				<span id="choose"><i class="white">白色</i><i class="black">黑色</i></span>
+				<span class="txt"><i class="have">现在有货</i><i class="now">库存紧张</i></span>
+			</p>
+			<p class="car">
+				<span class="leftcar">立即购买</span>
+				<span id="rightcar" class="rightcar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;加入购物车</span>
+			</p>
+			<p class="yuhui">
+				<span class="my"><i class="txt">免邮</i></span>
+				<span class="tx">全场购物满199元免运费</span>
+			</p>
+		</div>
+	</div>
+	<div id="detailIntroduced">
+		<p class="intImg"><img src="/img/detail/1092307pc_01.jpg"></p>
+		<p class="intShow"><img src="/img/detail/1092307pc_02.jpg"></p>
+		<p class="iniBlack"><img src="/img/detail/1092307pc_03.jpg"></p>
+		<p class="iniBigimg"><img src="/img/detail/1092307pc_04.jpg"></p>
+		<p class="iniAuthor"><img src="/img/detail/1092307pc_05.jpg"></p>
+		<P class="inipreat"><img src="/img/detail/1092307pc_06.jpg"></P>
+		<p class="iniSize"><img src="/img/detail/6379574_08.jpg"></p>
+		<p class="iniMaintain"><img src="/img/detail/1092307pc_09.jpg"></p>
+		<P class="iniMainta"><img src="/img/detail/1092307pc_10.jpg"></P>
+	</script>
+</div>

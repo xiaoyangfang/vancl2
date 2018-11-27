@@ -1,0 +1,519 @@
+$aw: 100%;
+$wd: 1200px;
+$mg: 0 auto;
+$fl: left;
+$fr: right;
+$arr: #9a9a9a #e8e7ec #a10000 #333333;
+$fs: 18px;
+$fz: 14px;
+$fsize: 12px;
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+	#vancl_scroll{
+		width: $wd;
+		height: 535px;
+		margin: $mg;
+		padding: 40px 0px 0px; 
+		position: relative;
+		overflow: hidden;
+		ul{
+			width: $wd;
+			height: 535px;
+			overflow: hidden;
+			position: absolute;
+			li{
+				width: $wd;
+				float: left;
+				height: 535px;
+			}
+		}
+		ol{
+			width: 300px;
+			height: 20px;
+			position: absolute;
+			left: 40%;
+			bottom: 25px;
+			li{
+				float: $fl;
+				margin-left: 8px;
+				margin-right: 8px;
+				width: 20px;
+				height: 20px;
+				background: white;
+				border-radius: 50%;
+				cursor: pointer;
+			}
+			.ac{
+				background: #c1383e;
+			}
+		}
+		#left{
+			width: 28px;
+			height: 60px;
+			position: absolute;
+			display: block;
+			top: 45%;
+			left: 10px;
+			background: url(/img/index/p1.png) no-repeat;
+			&:hover{
+				background: url(/img/index/p2.png) no-repeat;
+			}
+		}
+		#right{
+			width: 28px;
+			height: 60px;
+			position: absolute;
+			display: block;
+			top: 45%;
+			right: 10px;
+			background: url(/img/index/n1.png) no-repeat;
+			&:hover{
+				background: url(/img/index/n2.png) no-repeat;
+			}
+		}
+	}
+.sc_img{
+	width: $wd;
+	margin: $mg;
+	& a{
+		height: 68px;
+		display: block;
+		padding: 50px 0px 70px;
+	}
+}
+.sc_comm{
+	width: $wd;
+	margin: $mg;
+	& .sc_a{
+		height: 56px;
+		display: block;
+		padding: 0px 0px 30px;
+	}
+	& .com_ul{
+		height: 425px;
+		padding: 20px 0px 40px;
+		li{
+			width: 267px;
+			height: 425px;
+			float: $fl;
+		}
+		li:nth-child(1){
+			margin-right: 44px;
+		}
+		li:nth-child(3){
+			margin: 0px 44px;
+		}
+	}
+	.sc_commodity{
+		height: 1149px;
+		& .cm_p{
+			height: 50px;
+			text-align: center;
+			font-size: $fs;
+			color: nth($arr,1);
+			padding: 20px 0px;
+		}
+		& .cm_ul{
+			height: 509px;
+			& li{
+				float: $fl;
+			}
+			.cm_ul_li1{
+				width: 590px;
+				height: 509px;
+				& .li1_p1{
+					height: 440px;
+				}
+				& .li1_p2{
+					width: 588px;
+					height: 69px;
+					line-height: 69px;
+					border: 1px solid nth($arr,2);
+					float: $fl;
+					& i{
+						margin-left: 20px;
+						float: $fl;
+						display: block;
+						font-size: $fz;
+					}
+					& a{
+						margin-right: 20px;
+						float: $fr;
+						display: block;
+						font-size: $fz;
+						color: nth($arr,3);
+					}
+				}
+			}
+			.cm_ul_li2{
+				width: 290px;
+				height: 509px;
+				margin: 0px 20px;
+				& .li2_1{
+					height: 249px;
+					& .a{
+						display: block;
+						height: 180px;
+					}
+					& .a2{
+						width: 288px;
+						display: block;
+						height: 68px;
+						line-height: 68px;						
+						border: 1px solid nth($arr,2);
+						float: $fl;
+						& i:nth-child(1){
+							margin-left: 20px;
+							float: $fl;
+							display: block;
+							font-size: $fz;
+							color: nth($arr,4);
+						}
+						& i:nth-child(2){
+							margin-right: 20px;
+							float: $fr;
+							display: block;
+							font-size: $fz;
+							color: nth($arr,3);
+							font-size: $fsize;
+						}
+					}
+				}
+				& .li2_2{
+					height: 249px;
+					margin-top: 12px;
+					float: $fl;
+					& .a{
+						display: block;
+						height: 180px;
+					}
+					& .a2{
+						width: 288px;
+						display: block;
+						height: 67px;
+						line-height: 67px;						
+						border: 1px solid nth($arr,2);
+						float: $fl;
+						& i:nth-child(1){
+							margin-left: 20px;
+							float: $fl;
+							display: block;
+							font-size: $fz;
+							color: nth($arr,4);
+						}
+						& i:nth-child(2){
+							margin-right: 20px;
+							float: $fr;
+							display: block;
+							font-size: $fz;
+							color: nth($arr,3);
+							font-size: $fsize;
+						}
+					}
+				}
+			}
+			& .cm_ul_li3{
+				width: 280px;
+				float: $fr;
+				& .li3_p1{
+					height: 440px;
+				}
+				& .li3_p2{
+					width: 280px;
+					height: 69px;
+					line-height: 69px;
+					border: 1px solid nth($arr,2);
+					float: $fl;
+					& i{
+						margin-left: 20px;
+						float: $fl;
+						display: block;
+						font-size: $fz;
+					}
+					& a{
+						margin-right: 20px;
+						float: $fr;
+						display: block;
+						font-size: $fz;
+						color: nth($arr,3);
+					}
+				}
+			}
+		}
+		& .cm_ul2{
+			height: 509px;
+			margin-top: 20px;
+			& li{
+				float: $fl;
+			}
+			.cm_ul_li1{
+				width: 590px;
+				height: 509px;
+				& .li1_p1{
+					height: 440px;
+				}
+				& .li1_p2{
+					width: 588px;
+					height: 69px;
+					line-height: 69px;
+					border: 1px solid nth($arr,2);
+					float: $fl;
+					& i{
+						margin-left: 20px;
+						float: $fl;
+						display: block;
+						font-size: $fz;
+					}
+					& a{
+						margin-right: 20px;
+						float: $fr;
+						display: block;
+						font-size: $fz;
+						color: nth($arr,3);
+					}
+				}
+			}
+			.cm_ul_li2{
+				width: 290px;
+				height: 509px;
+				margin: 0px 20px;
+				& .li2_1{
+					height: 249px;
+					& .a{
+						display: block;
+						height: 180px;
+					}
+					& .a2{
+						width: 288px;
+						display: block;
+						height: 68px;
+						line-height: 68px;						
+						border: 1px solid nth($arr,2);
+						float: $fl;
+						& i:nth-child(1){
+							margin-left: 20px;
+							float: $fl;
+							display: block;
+							font-size: $fz;
+							color: nth($arr,4);
+						}
+						& i:nth-child(2){
+							margin-right: 20px;
+							float: $fr;
+							display: block;
+							font-size: $fz;
+							color: nth($arr,3);
+							font-size: $fsize;
+						}
+					}
+				}
+				& .li2_2{
+					height: 249px;
+					margin-top: 12px;
+					float: $fl;
+					& .a{
+						display: block;
+						height: 180px;
+					}
+					& .a2{
+						width: 288px;
+						display: block;
+						height: 67px;
+						line-height: 67px;						
+						border: 1px solid nth($arr,2);
+						float: $fl;
+						& i:nth-child(1){
+							margin-left: 20px;
+							float: $fl;
+							display: block;
+							font-size: $fz;
+							color: nth($arr,4);
+						}
+						& i:nth-child(2){
+							margin-right: 20px;
+							float: $fr;
+							display: block;
+							font-size: $fz;
+							color: nth($arr,3);
+							font-size: $fsize;
+						}
+					}
+				}
+			}
+			& .cm_ul_li3{
+				width: 280px;
+				float: $fr;
+				& .li3_p1{
+					height: 440px;
+				}
+				& .li3_p2{
+					width: 280px;
+					height: 69px;
+					line-height: 69px;
+					border: 1px solid nth($arr,2);
+					float: $fl;
+					& i{
+						margin-left: 20px;
+						float: $fl;
+						display: block;
+						font-size: $fz;
+					}
+					& a{
+						margin-right: 20px;
+						float: $fr;
+						display: block;
+						font-size: $fz;
+						color: nth($arr,3);
+					}
+				}
+			}
+		}
+	}
+	& .pants_recommend{
+		height: 638px;
+		& .cm_p{
+			height: 50px;
+			text-align: center;
+			font-size: $fs;
+			color: nth($arr,1);
+			padding: 40px 0px 20px;
+		}
+		& .pt_ul{
+			height: 509px;
+			& li{
+				width: 285px;
+				float: $fl;
+			}
+			& .pt_li1{
+				margin-right: 20px;
+				& .pt_p1{
+					height: 438px;					
+				}
+				& .pt_p2{
+					width: 283px;
+					height: 69px;
+					line-height: 69px;
+					border: 1px solid nth($arr,2);
+					float: $fl;
+					& i{
+						margin-left: 20px;
+						float: $fl;
+						display: block;
+						font-size: $fsize;
+					}
+					& a{
+						margin-right: 20px;
+						float: $fr;
+						display: block;
+						font-size: $fz;
+						color: nth($arr,3);
+					}
+				}
+			}
+			& .pt_li2{				
+				& .pt2_p1{
+					height: 438px;					
+				}
+				& .pt2_p2{
+					width: 283px;
+					height: 69px;
+					line-height: 69px;
+					border: 1px solid nth($arr,2);
+					float: $fl;
+					& i{
+						margin-left: 20px;
+						float: $fl;
+						display: block;
+						font-size: $fsize;
+					}
+					& a{
+						margin-right: 20px;
+						float: $fr;
+						display: block;
+						font-size: $fz;
+						color: nth($arr,3);
+					}
+				}
+			}
+			& .pt_li3{
+				margin: 0px 20px;
+				& .pt3_p1{
+					height: 438px;					
+				}
+				& .pt3_p2{
+					width: 283px;
+					height: 69px;
+					line-height: 69px;
+					border: 1px solid nth($arr,2);
+					float: $fl;
+					& i{
+						margin-left: 20px;
+						float: $fl;
+						display: block;
+						font-size: $fsize;
+					}
+					& a{
+						margin-right: 20px;
+						float: $fr;
+						display: block;
+						font-size: $fz;
+						color: nth($arr,3);
+					}
+				}
+			}
+			& .pt_li4{
+				& .pt4_p1{
+					height: 438px;					
+				}
+				& .pt4_p2{
+					width: 283px;
+					height: 69px;
+					line-height: 69px;
+					border: 1px solid nth($arr,2);
+					float: $fl;
+					& i{
+						margin-left: 20px;
+						float: $fl;
+						display: block;
+						font-size: $fsize;
+					}
+					& a{
+						margin-right: 20px;
+						float: $fr;
+						display: block;
+						font-size: $fz;
+						color: nth($arr,3);
+					}
+				}
+			}
+		}
+	}
+	& .pt_commodity{
+		height: 710px;
+		& .pt_com_p{
+			height: 50px;
+			text-align: center;
+			font-size: $fs;
+			color: nth($arr,1);
+			padding: 40px 0px 20px;
+		}
+		& .pt_cmd_ul{		
+			li{
+				width: 385px;
+				height: 275px;
+				float: $fl;
+			}
+			& .cmd_ul_li2{
+				margin: 0px 20px;
+			}
+			& .cmd_ul_li4,.cmd_ul_li5{
+				margin-top: 20px;
+				margin-right: 20px;
+			}
+		}
+	}
+}

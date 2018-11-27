@@ -1,0 +1,414 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-style: normal;
+}
+.detail_head{
+	width: 1200px;
+	margin: 0 auto;
+	.text{
+		height: 22px;
+		line-height: 22px;
+		color: #000;
+		font-size: 12px;
+	}
+	.brandNumArea{
+		width: 1200px;
+		height: 50px;
+		border-bottom: 1px solid #c9caca;
+		margin-bottom: 40px; 
+		.productname{
+			float: left;
+			margin-left: 10px;
+		    margin-right: 10px;
+		    line-height: 45px;
+		    font-size: 18px;
+		    font-weight: bold;
+		}
+		.options{
+			height: 45px;
+			line-height: 45px;
+			float: right;
+			li{
+				float: left;
+			    color: #808080;
+			    height: 45px;
+			    margin: 0 10px 0 0;
+			    a{
+			    	padding: 0px 20px;
+			    	height: 15px;
+			    	color: #000;
+    				font-weight: bold;
+    				font-size: 15px;
+    				border-right: 1px solid #c9caca;
+			    }
+			}
+		}
+	}
+}
+.Image_details{
+	width: 1200px;
+	margin: 0 auto;
+	height: 1000px;
+	border-bottom: 1px solid #ccc;
+    height: 435px;
+	.danpin_colLef{
+		width: 634px;
+		height: 426px;
+		float: left;
+		.danpinLeft{
+			width: 72px;
+			height: 429px;
+			float: left;
+			ul{
+				width: 72px;
+				height: 429px;
+				li{
+					width: 71px;
+					height: 71px;
+					background: #333333;
+					border: 2px solid #a10000;
+					img{
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.danpinli{
+					display: block;
+				}
+				.danpintli{
+					display: none;
+				}
+			}
+		}
+		.danpinColCenter{
+			float: right;
+			margin: 0 80px;
+			width: 400px;
+			height: 400px;
+			border: 1px solid #e5e6e6;
+			position: relative;
+			.smallImg{
+				position: relative;
+				#img{
+					display: block;
+				}
+				.twoImg{
+					display: none;
+				}
+				#fdj{
+					display: inline-block;
+					width: 200px;
+	    			height: 200px;
+	    			opacity: 0.6;
+				    background-color: #e6eaf3;
+				    position: absolute;
+				    top: 0;
+				    left: 0;
+				    cursor: move;
+				    display: none;
+				}
+			}
+			.bigImg{
+				width: 400px;
+				height: 400px;
+				border: 1px solid black;
+				overflow: hidden;
+			    position: absolute;
+			    top: 50px;
+			    left: 400px;
+			    z-index: 5;
+			    display: none;
+			    #bigimg{
+			    	position: absolute;
+			    }
+			}
+		}
+	}
+	.danpinRight{
+		width: 561px;
+		height: 374px;
+		float: right;
+		.tehuijia{
+			height: 26px;
+			line-height: 26px;
+			.text{
+				font-size: 12px;
+			    color: #A10000;
+			    float: left;
+			    .price{
+			    	font-size: 24px;
+			    	color: #A10000;
+			    	font-weight: bold;
+			    }
+			}
+			.txt{
+				font-size: 12px;
+			    color: #A10000;
+			    margin-left: 20px;
+			}
+		}
+		.color{
+			margin-top: 25px; 
+			height: 50px;
+			.colortxt{
+				color: #666666;
+				font-size: 12px;
+				float: left;
+			}
+			.colorImg{
+				margin-left: 50px;
+				li{
+					width: 97px;
+					height: 42px;
+					margin-right: 5px; 
+					border: 1px solid #B4B4B4;
+					float: left;
+					&:hover{
+						border: 1px solid #a10000;
+					}
+				}
+				.colorImgli{
+					position: relative;
+					border: 3px solid #a10000;
+					.Img{
+						width: 36px;
+						height: 36px;
+						display: inline-block;
+						margin: 2px 2px;
+						float: left;
+						img{
+							width: 100%;
+							height: 100%;
+						}
+					}
+					.Txt{
+						width: 46px;
+						height: 38px;
+						display: inline-block;
+						color: #666;
+						cursor: pointer;
+						margin-left: 6px;
+						font-size: 12px;
+					}
+					.d{
+						position: absolute;
+						right: 0;
+						bottom: -4px;
+						display: block;
+					}
+				}
+				.colorImgtli{
+					position: relative;
+					.tImg{
+						width: 36px;
+						height: 36px;
+						display: inline-block;
+						margin: 2px 2px;
+						float: left;
+						img{
+							width: 100%;
+							height: 100%;
+						}
+					}
+					.tTxt{
+						width: 46px;
+						height: 38px;
+						display: inline-block;
+						color: #666;
+						cursor: pointer;
+						margin-left: 6px;
+						font-size: 12px;
+					}
+					.dt{
+						position: absolute;
+						right: 0;
+						bottom: -4px;
+						display: none;
+					}
+				}
+			}
+		}
+		.size{
+			margin-top: 10px; 
+			height: 30px;
+			.text{
+				color: #666666;
+				font-size: 12px;
+				float: left;
+			}
+			#size{
+				margin-left: 50px;
+				li{
+					width: 24px;
+					height: 24px;
+					line-height: 22px;
+					text-align: center;
+					border: 1px solid #C8C8C8;
+				    color: #333333;
+				    cursor: pointer;
+				    display: inline-block;
+					float: left;
+					font-size: 5px;
+				}
+				.s{
+					display: block;
+				}
+				.m{
+					display: block;
+					margin: 0px 5px;
+				}
+				.l{
+					display: block;
+				}
+				.xl{
+					display: none;
+					margin: 0px 5px;
+				}
+				.xxl{
+					display: block;
+					margin: 0px 5px;
+					padding: 0px 10px;
+				}
+				.xxxl{
+					padding: 0px 10px;
+					margin-left: 5px;
+					display: block;
+				}
+			}
+		}
+		.number{
+			margin-top: 10px; 
+			height: 30px;
+			.text{
+				color: #666666;
+				font-size: 12px;
+				float: left;
+			}
+			#number{
+				width: 53px;
+				height: 20px;
+				display: inline;
+				float: left;
+			}
+			.txt{
+				line-height: 20px;
+				margin-left: 10px;
+				font-size: 12px;
+				color: #a10000;
+			}
+		}
+		.choose{
+			margin-top: 10px; 
+			height: 30px;
+			position: relative;
+			.text{
+				color: #666666;
+				font-size: 12px;
+				float: left;
+			}
+			#choose{
+				color: #666666;
+    		    font-weight: bold;
+    		    float: left;
+    		    font-size: 12px;
+    		    margin-left: 10px;
+    		    .white{
+    		    	display: block;
+    		    }
+    		    .black{
+    		    	display: none;
+    		    }
+			}
+			.txt{
+				margin-left: 10px;
+				font-size: 12px;
+				color: #a10000;
+				font-weight: bold;
+				position: absolute;
+				top: 0px;
+				.hove{
+				 	display: block;
+				}
+				.now{
+					display: none;
+				}
+			}
+		}
+		.car{
+			margin-top: 10px;
+			.leftcar{
+				background: #F7ABAF;
+			    width: 166px;
+			    height: 31px;
+			    line-height: 31px;
+			    display: block;
+			    float: left;
+			    text-align: center;
+			    margin-right: 13px;
+			    border: solid 1px rgb(183, 27, 33);
+			    font-size: 14px;
+    			color: #A50309;
+    			cursor: pointer;
+			}
+			.rightcar{
+				width: 168px;
+			    height: 33px;
+			    display: block;
+			    text-align: center;
+			    line-height: 33px;
+			    color: white;
+			    font-size: 14px;
+			    float: left;
+			    cursor: pointer;
+			    background: url(/img/blouse/vanclsprite.png)no-repeat;
+			}
+		}
+		.yuhui{
+			width: 400px;
+			background: url(/img/detail/one.jpg)no-repeat;
+			height: 46px;
+			line-height: 46px;
+    		margin-top: 70px;
+    		border-bottom: 1px solid #A20000;
+    		.my{
+    			width: 34px;
+    			height: 16px;
+    			display: inline-block;
+    			float: left;
+    			background: #A20000;
+    			color: white;
+    			font-size: 5px;
+    			margin-top: 20px;
+    			position: relative;
+    			.txt{
+					width: 24px;
+					display: inline-block;
+					position: absolute;
+					top: -15px;
+    			    left: 5px;
+    			}
+    		}
+    		.tx{
+    			height: 45px;
+    			line-height: 56px;
+    			display: inline-block;
+    			margin-left: 14px;
+    			font-size: 12px;
+    			color: #666666;
+    		}
+		}
+	}
+}
+#detailIntroduced{
+	width: 1200px;
+	margin: 0 auto;
+	.intImg{
+	}
+	.intShow{		
+	}
+	.iniBlack{	
+	}
+}

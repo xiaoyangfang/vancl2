@@ -1,0 +1,438 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.vanscl_logo{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	.logo{
+		position: absolute;
+		top: -65px;
+	}
+	ul{
+		height: 60px;
+		border-top: 1px solid #e5e5e5;
+		li{
+			width: 74px;
+			float: left;
+			height: 43px;
+			line-height: 43px;
+			margin-right: 53px;
+		    font-size: 18px;
+		    margin-top: 10px;
+		    text-align: center;
+			a{
+				width: 74px;
+				height: 43px;
+				line-height: 43px;
+				display: inline-block;
+				color: rgb(103, 103, 103);
+				&:hover{
+					border-bottom: 3px solid #b81c20;
+				}
+			}
+		}
+	}
+	.img{
+		height: 650px;
+	}
+	.sidebar{
+		position: relative;
+		img{
+			position: fixed;
+			bottom: 10px;
+			right: 10px;
+		}
+	}
+}
+.vancl_Tshirtxbx{
+	width: 1200px;
+	margin: 0 auto;
+	.tshirt_xbx{
+		height: 110px;
+		&:hover{
+			box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    	    transform: translate3d(0, -2px, 0);
+		}
+	}
+}
+.vancl_Tshirt{
+	width: 1200px;
+	margin: 0 auto;
+	height: 1570px;
+	.tshirt_tx{
+		height: 105px;
+		&:hover{
+			box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    	    transform: translate3d(0, -2px, 0);
+		}
+	}
+	#proList{
+		width: 1200px;
+		height: 1000px;
+		li{
+		    border: 1px solid #e8e7ec;
+            height: 335px;
+            width: 260px;
+            float: left;
+            margin: 20px 10px 0px 15px;
+            position: relative;
+            .pic{
+            	width: 260px;
+            	height: 260px;
+            	a{
+            		width: 260px;
+            		height: 260px;
+            		display: inline-block;
+            		&:hover{
+	            		box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+	            		transform: translate3d(0, -2px, 0);
+            		}
+            	}
+            }
+            .name{
+            	width: 60%;
+                font-size: 14px;
+                float: left;
+                text-align: center;
+                color: #676767;
+            }
+            .pirce{
+            	width: 30%;
+            	height: 38px;
+			    float: right;
+			    text-align: center;
+			    color: #b80001;
+			    text-decoration: line-through;
+            }
+            .cname{
+            	width: 60%;
+            	height: 40px;
+    			line-height: 30px;
+			    font-size: 14px;
+			    color: #b80001;
+			    text-align: center;
+            }
+            a{
+                width: 30%;
+			    float: right;
+			    color: #676767;
+            }
+            .Img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 91px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					width: 57px;
+					    height: 28px;
+					    line-height: 36px;
+					    display: inline-block;
+					    font-size: 15px;
+    				}
+    				.sprice{
+						width: 59px;
+    					line-height: 20px;
+    				}
+				}
+		}
+	}
+}
+/**/
+.vancl_artist{
+	width: 1200px;
+	margin: 0 auto;
+	.tshirt_artist{
+		height: 105px;
+		&:hover{
+			box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    	    transform: translate3d(0, -2px, 0);
+		}
+	}
+	#proList{
+		width: 1200px;
+		height: 500px;
+		li{
+		    border: 1px solid #e8e7ec;
+            height: 335px;
+            width: 260px;
+            float: left;
+            margin: 20px 10px 0px 15px;
+            position: relative;
+            .pic{
+            	width: 260px;
+            	height: 260px;
+            	&:hover{
+            		box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            		transform: translate3d(0, -2px, 0);
+            	}
+            }
+            .name{
+            	width: 60%;
+                font-size: 14px;
+                float: left;
+                text-align: center;
+                color: #676767;
+            }
+            .pirce{
+            	width: 30%;
+            	height: 38px;
+			    float: right;
+			    text-align: center;
+			    color: #b80001;
+			    text-decoration: line-through;
+            }
+            .cname{
+            	width: 60%;
+            	height: 40px;
+    			line-height: 30px;
+			    font-size: 14px;
+			    color: #b80001;
+			    text-align: center;
+            }
+            a{
+                width: 30%;
+			    float: right;
+			    color: #676767;
+            }
+            .Img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 91px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					width: 57px;
+					    height: 28px;
+					    line-height: 36px;
+					    display: inline-block;
+					    font-size: 15px;
+    				}
+    				.sprice{
+						width: 59px;
+    					line-height: 20px;
+    				}
+				}
+		}
+	}
+}
+/**/
+.vancl_POLO{
+	width: 1200px;
+	margin: 0 auto;
+	.tshirt_POLO{
+		height: 105px;
+		&:hover{
+			box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    	    transform: translate3d(0, -2px, 0);
+		}
+	}
+	#proList{
+		width: 1200px;
+		height: 500px;
+		li{
+		    border: 1px solid #e8e7ec;
+            height: 335px;
+            width: 260px;
+            float: left;
+            margin: 20px 10px 0px 15px;
+            position: relative;
+            .pic{
+            	width: 260px;
+            	height: 260px;
+            	&:hover{
+            		box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            		transform: translate3d(0, -2px, 0);
+            	}
+            }
+            .name{
+            	width: 60%;
+                font-size: 14px;
+                float: left;
+                text-align: center;
+                color: #676767;
+            }
+            .pirce{
+            	width: 30%;
+            	height: 38px;
+			    float: right;
+			    text-align: center;
+			    color: #b80001;
+			    text-decoration: line-through;
+            }
+            .cname{
+            	width: 60%;
+            	height: 40px;
+    			line-height: 30px;
+			    font-size: 14px;
+			    color: #b80001;
+			    text-align: center;
+            }
+            a{
+                width: 30%;
+			    float: right;
+			    color: #676767;
+            }
+            .Img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 91px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					width: 57px;
+					    height: 28px;
+					    line-height: 36px;
+					    display: inline-block;
+					    font-size: 15px;
+    				}
+    				.sprice{
+						width: 59px;
+    					line-height: 20px;
+    				}
+				}
+		}
+	}
+}
+.vancl_runTshirt{
+	width: 1200px;
+	margin: 0 auto;
+	height: 160px;
+	.tshirt_runTshirt{
+		height: 110px;
+		&:hover{
+			box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    	    transform: translate3d(0, -2px, 0);
+		}
+	}
+}
+/**/
+.vancl_waistcoat{
+	width: 1200px;
+	margin: 0 auto;
+	.tshirt_waistcoat{
+		height: 105px;
+		&:hover{
+			box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    	    transform: translate3d(0, -2px, 0);
+		}
+	}
+	#proList{
+		width: 1200px;
+		height: 500px;
+		li{
+		    border: 1px solid #e8e7ec;
+            height: 335px;
+            width: 260px;
+            float: left;
+            margin: 20px 10px 0px 15px;
+            position: relative;
+            .pic{
+            	width: 260px;
+            	height: 260px;
+            	&:hover{
+            		box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            		transform: translate3d(0, -2px, 0);
+            	}
+            }
+            .name{
+            	width: 60%;
+                font-size: 14px;
+                float: left;
+                text-align: center;
+                color: #676767;
+            }
+            .pirce{
+            	width: 30%;
+            	height: 38px;
+			    float: right;
+			    text-align: center;
+			    color: #b80001;
+			    text-decoration: line-through;
+            }
+            .cname{
+            	width: 60%;
+            	height: 40px;
+    			line-height: 30px;
+			    font-size: 14px;
+			    color: #b80001;
+			    text-align: center;
+            }
+            a{
+                width: 30%;
+			    float: right;
+			    color: #676767;
+            }
+            .Img{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+				.special{
+					width: 60px;
+    				height: 60px;
+					background: #A10000;
+					border-radius: 50%;
+					position: absolute;
+					right: 11px;
+    				bottom: 91px;
+    				text-align: center;
+    				a{
+    					color: white;
+    					font-size: 15px;
+    				}
+    				.tehui{
+    					width: 57px;
+					    height: 28px;
+					    line-height: 36px;
+					    display: inline-block;
+					    font-size: 15px;
+    				}
+    				.sprice{
+						width: 59px;
+    					line-height: 20px;
+    				}
+				}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>凡客诚品-会员登录</title>
+	<link rel="shortcut icon" href="/img/index/l.png">
+	<link rel="stylesheet" type="text/css" href="/css/component/login.css">
+</head>
+<body>
+	<div class="vancl_login_top">
+		<a href="http://localhost:1314"><img src="/img/index/logo.png"></a>
+		<a href="javascript:;">帮助</a>
+	</div>
+	<div class="vancl_login_section">
+		<div class="vancl_login_sectionLeft">
+			<img src="/img/index/login120412_newlogo.jpg">
+		</div>
+		<div class="vancl_login_sectionRight">
+			<p>
+				<i>凡客 Vancl 登录</i>
+				<i>没有账户免费<a href="http://localhost:1314/html/register.html">注册</a></i>
+			</p>
+			<div class="login">
+				<label><i class="infor">普通登录</i><i class="quick">快速登录</i></label>
+				<form id="form">
+					<div class="user_infor">
+						<input type="text" name="username" class="username" placeholder="&nbsp;&nbsp;请输入用户名">
+						<input type="password" name="password" class="password" placeholder="&nbsp;&nbsp;请输入密码">
+						<h3><a href="javascript:;">找回密码</a></h3>
+						<button>登录</button>
+					</div>
+					<div class="user_quick">
+						<label>
+							<input type="text" name="username" class="username" placeholder="&nbsp;&nbsp;请输入手机号">
+							<input type="button" value="获取短信验证码">
+						</label>
+						<label>
+							<input type="text" placeholder="&nbsp;&nbsp;验证码">
+							<span><img src="/img/index/CalculateValidateCode.jpg"></span>
+							<h3>看不清?换一张</h3>
+						</label>
+						<label>
+							<input type="text" placeholder="&nbsp;&nbsp;请输入手机验证码">
+						</label>
+						<label>
+							<input type="submit" value="登录" id="submit">
+						</label>
+
+					</div>
+				</form>
+				<div class="login_bottom">
+					<h3>使用合作网站账号登录凡客</h3>
+					<a href="javascript:;"><img src="/img/index/logos.jpg"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="vancl_login_footer">
+		<p>Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
+		<p><a href="javascript:;"><img src="/img/index/t1.jpg"></a><img src="/img/index/t2.jpg"><a href="javascript:;"><img src="/img/index/t3.jpg"></a><a href="javascript:;"><img src="/img/index/t4.jpg"></a></p>
+	</div>
+	<script type="text/javascript" src="/libs/require/require.js" data-main="/js/login.js"></script>
+	
+</body>
+</html>
